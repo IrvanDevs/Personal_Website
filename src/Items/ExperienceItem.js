@@ -24,7 +24,7 @@ function ExperienceItem({startYear, endYear, title, company, tasks}) {
                     start: 'top 100%',
                     end: 'top 0%',
                     scroller: '.Main',
-                    toggleActions: 'restart reverse restart reverse',
+                    toggleActions: 'play none none reverse',
                 }
             }
         );
@@ -43,7 +43,7 @@ function ExperienceItem({startYear, endYear, title, company, tasks}) {
                     start: 'top 100%',
                     end: 'top 0%',
                     scroller: '.Main',
-                    toggleActions: 'restart reverse restart reverse',
+                    toggleActions: 'play none none reverse',
                 }
             }
         );
@@ -62,7 +62,7 @@ function ExperienceItem({startYear, endYear, title, company, tasks}) {
                     start: 'top 100%',
                     end: 'top 0%',
                     scroller: '.Main',
-                    toggleActions: 'restart reverse restart reverse',
+                    toggleActions: 'play none none reverse',
                 }
             }
         );
@@ -74,7 +74,7 @@ function ExperienceItem({startYear, endYear, title, company, tasks}) {
                 start: 'top 100%',
                 end: 'top 0%',
                 scroller: '.Main',
-                toggleActions: 'restart reverse restart reverse',
+                toggleActions: 'play none none reverse',
             },
             delay: 1.5,
         });

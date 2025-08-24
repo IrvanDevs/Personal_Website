@@ -82,7 +82,7 @@ function Intro() {
                     start: "top 100%",
                     end: "top 0%",
                     scroller: ".Main",
-                    toggleActions: "restart reverse restart reverse",
+                    toggleActions: 'play none none reverse',
                 }
             }
         );
@@ -94,7 +94,7 @@ function Intro() {
                 start: "top 100%",
                 end: "top 0%",
                 scroller: ".Main",
-                toggleActions: "restart reverse restart reverse",
+                toggleActions: 'play none none reverse',
             }
         });
 
@@ -120,7 +120,7 @@ function Intro() {
                 start: "top 100%",
                 end: "top 0%",
                 scroller: ".Main",
-                toggleActions: "restart reverse restart reverse",
+                toggleActions: 'play none none reverse',
             },
             delay: 1,
         });
@@ -147,7 +147,7 @@ function Intro() {
                 start: "top 100%",
                 end: "top 0%",
                 scroller: ".Main",
-                toggleActions: "restart reverse restart reverse",
+                toggleActions: 'play none none reverse',
             },
             delay: 2,
         });

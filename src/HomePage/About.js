@@ -26,7 +26,7 @@ function About() {
               start: 'top 100%',
               end: 'top 0%',
               scroller: '.Main',
-              toggleActions: 'restart reverse restart reverse',
+              toggleActions: 'play none none reverse',
           }
       }
     );
@@ -38,7 +38,7 @@ function About() {
           start: 'top 100%',
           end: 'top 0%',
           scroller: '.Main',
-          toggleActions: 'restart reverse restart reverse',
+          toggleActions: 'play none none reverse',
       },
         delay: 1,
     });

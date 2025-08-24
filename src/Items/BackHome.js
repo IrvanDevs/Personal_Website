@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
@@ -6,6 +7,7 @@ import profile from '../Images/profile.png';
 gsap.registerPlugin(ScrollTrigger);
 
 function BackHome() {
+    const navigate = useNavigate();
     const backRef = useRef(null);
 
     useEffect(() => {
@@ -44,7 +46,7 @@ function BackHome() {
 
   return (
     <div ref={backRef} className='fixed top-10 left-10 z-[100]'>
-        <button onClick={() => window.location.href = '/'} className='flex items-center gap-5'>
+        <button onClick={() => navigate('/')}  className='flex items-center gap-5'>
           <img src={profile} alt='Profile-Pic' className='pointer-events-none size-[50px]'/>
           <p className='back-text font-semibold text-sm bg-white text-custom-db py-1 px-3 rounded-[5px]'>Return to profile?</p>
         </button>

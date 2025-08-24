@@ -41,7 +41,7 @@ function ScrollDown() {
 
     return (
     // Scroll Indicator
-        <div ref={scrollRef} className='scroll opacity-70 z-10 pointer-events-none absolute bottom-3 left-50 flex items-center justify-center gap-1'>
+        <div ref={scrollRef} className='scroll opacity-70 z-10 pointer-events-none absolute bottom-3 left-50 hidden md:flex items-center justify-center gap-1'>
             <ArrowDown className='mb-0.5' size={20}/> <p className='font-regular text-[15px]'>Scroll Down</p>
         </div>
     );

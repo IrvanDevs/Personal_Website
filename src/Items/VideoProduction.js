@@ -305,7 +305,7 @@ function VideoProduction() {
                   onChange={(e) => handleTimelineChange(i, e)}
                   className='w-full mx-2 hover:cursor-pointer'
                 />
-                <button onClick={() => handleFullscreen(i)}>
+                <button onClick={() => handleFullscreen(i)} className='hidden md:block'>
                   <Maximize size={24} className='text-white' />
                 </button>
               </div>
